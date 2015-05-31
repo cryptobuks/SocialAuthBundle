@@ -3,7 +3,7 @@
     "description": "Social Media Authentication for Symfony 2",
     "version": "1.1.0",
     "type": "symfony-bundle",
-    "homepage": "https://github.com/Cach/SocialAuthBundlee",
+    "homepage": "https://github.com/Cach/SocialAuthBundle",
     "license": "MIT",
     "keywords": ["social", "auth", "social networks"],
     "authors": [{
