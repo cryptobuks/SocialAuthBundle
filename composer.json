@@ -8,7 +8,7 @@
     "keywords": ["social", "auth", "social networks"],
     "authors": [{
             "name": "Alex P",
-            "email": "calexey.pass@gmail.com"
+            "email": "alexey.pass@gmail.com"
         }],
     "require": {
         "php": ">=5.4",
