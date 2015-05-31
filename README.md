@@ -36,7 +36,7 @@ public function registerBundles() {
 ### Step3: Enable needed social networks
 
 ``` yaml
-# app/config/routing.yml
+# app/config/config.yml
 
 alex_p_social_auth:
     enabled: ['vk', 'facebook', 'google_plus', 'linkedin', 'odnoklassniki']
