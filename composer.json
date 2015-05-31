@@ -1,0 +1,27 @@
+{
+    "name": "alexp/socialauth",
+    "description": "Social Media Authentication for Symfony 2",
+    "version": "1.0.0",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/Cach/SocialAuthBundlee",
+    "license": "MIT",
+    "keywords": ["social", "auth", "social networks"],
+    "authors": [{
+            "name": "Alex P",
+            "email": "calexey.pass@gmail.com"
+        }],
+    "require": {
+        "php": ">=5.5",
+        "symfony/symfony": ">=2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlexP\\SocialAuthBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

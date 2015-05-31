@@ -1,0 +1,4 @@
+services:
+    social_auth:
+        class: AlexP\SocialAuthBundle\lib\SocialAuth
+        arguments: [@service_container]
