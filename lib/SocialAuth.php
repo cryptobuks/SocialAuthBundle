@@ -18,6 +18,7 @@ class SocialAuth {
     public $linkedin;
     public $odnoklassniki;
     public $mailru;
+    public $yandex;
     
     protected $container = null;
     
@@ -32,6 +33,7 @@ class SocialAuth {
         if(in_array('linkedin', $enabled)) $this->linkedin = new OAuth\Linkedin($container);
         if(in_array('odnoklassniki', $enabled)) $this->odnoklassniki = new OAuth\Odnoklassniki($container);
         if(in_array('mailru', $enabled)) $this->mailru = new OAuth\MailRu($container);
+        if(in_array('yandex', $enabled)) $this->yandex = new OAuth\Yandex($container);
     }
 
 
