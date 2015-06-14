@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface {
     public function getConfigTreeBuilder() {
         $treeBuilder = new TreeBuilder();
         
-        $types = ['vk', 'facebook', 'google_plus', 'linkedin', 'odnoklassniki'];
+        $types = ['vk', 'facebook', 'google_plus', 'linkedin', 'odnoklassniki', 'mail.ru'];
         
         $rootNode = $treeBuilder->root('alex_p_social_auth');
         

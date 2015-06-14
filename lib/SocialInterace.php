@@ -9,6 +9,7 @@ namespace AlexP\SocialAuthBundle\lib;
 interface SocialInterace {
     
     public function getUrl();
+    
     public function getData($code);
     
 }

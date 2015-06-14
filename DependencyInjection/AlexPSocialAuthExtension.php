@@ -24,7 +24,7 @@ class AlexPSocialAuthExtension extends Extension {
         
         $container->setParameter('alex_p_social_auth.enabled', $config['enabled']);
         
-        $types = ['vk', 'facebook', 'google_plus', 'linkedin', 'odnoklassniki'];
+        $types = ['vk', 'facebook', 'google_plus', 'linkedin', 'odnoklassniki', 'mailru'];
         $fields = ['client_id', 'secret_key', 'return_url'];
         
         foreach($types as $type) {
