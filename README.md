@@ -1,7 +1,9 @@
 AlexPSocialAuthBundle
 ======================
 
-This the bundle help for authentication with a social networks
+This the bundle help for authentication with a social networks. 
+Now available next social networks: 
+Facebook, Google+, Instagram, LinkedIn, Mail.ru, Vk, Yandex, Odnoklassniki
 
 ## Installation
 
