@@ -33,7 +33,7 @@ class OAuth {
     private function __returnRequest($data) {
         $decode = json_decode($data, true);
         
-        return json_last_error() == JSON_ERROR_NONE ? $data : $decode;
+        return json_last_error() == JSON_ERROR_NONE ? $decode : $data;
     }
     
     public function __getUrl($url, $params = []) {

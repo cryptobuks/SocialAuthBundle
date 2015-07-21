@@ -19,6 +19,7 @@ class SocialAuth {
     public $odnoklassniki;
     public $mailru;
     public $yandex;
+    public $instagram;
     
     protected $container = null;
     
@@ -34,6 +35,7 @@ class SocialAuth {
         if(in_array('odnoklassniki', $enabled)) $this->odnoklassniki = new OAuth\Odnoklassniki($container);
         if(in_array('mailru', $enabled)) $this->mailru = new OAuth\MailRu($container);
         if(in_array('yandex', $enabled)) $this->yandex = new OAuth\Yandex($container);
+        if(in_array('instagram', $enabled)) $this->instagram = new OAuth\Instagram($container);
     }
 
 
